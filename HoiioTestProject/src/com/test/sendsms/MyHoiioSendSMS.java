@@ -9,7 +9,7 @@ public class MyHoiioSendSMS {
 	 private static String msg = "Hoiio test SMS... Have a nice day!";
 	 private static final String dest = "+6598062771";
 	 private static final String APP_ID = "ztzBWxmbbLPcpzcz";
-	 private static final String ACCESS_TOKEN = "1fRgJ3XIAA6oxFI7";
+	 private static final String ACCESS_TOKEN = "1fRgJ3XIAA6oxFI7"; 
      
 	 public static void main(String[] args){
 		 Hoiio hoiio = new Hoiio(APP_ID, ACCESS_TOKEN);
